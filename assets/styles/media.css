@@ -1,0 +1,28 @@
+@media (max-width:755px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .header__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__logo {
+        margin-right: 50px;
+        margin-bottom: 15px;
+
+    }
+
+    .header__navigation-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leaders__content {
+        padding-top: 400px;
+    }
+}
