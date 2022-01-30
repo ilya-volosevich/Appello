@@ -20,6 +20,7 @@ html {
 .header__content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-wrap:wrap;
     position: absolute;
     top:55px;
@@ -27,7 +28,7 @@ html {
 
 
 .header__logo {
-    margin-right: 410px;
+    margin-right: 470px;
 }
 
 .header__navigation-items {
@@ -48,6 +49,10 @@ html {
 .header__navigation-items a {
     text-decoration: none;
     color:#ffffff;
+}
+
+.header__navigation-items li:first-child {
+    margin-left: 24px;
 }
 
 .header__navigation-items li:last-child {
@@ -84,6 +89,8 @@ html {
 }
 
 .leaders__content h2 {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 4.2rem;
     line-height: 50px;
     max-width: 421px;
@@ -91,6 +98,8 @@ html {
 }
 
 .leaders__content p {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 1.1rem;
     max-width: 411px;
     margin-bottom: 35px;
@@ -137,6 +146,7 @@ html {
 
 .devpartners__right ul {
     display: flex;
+    flex-wrap: wrap;
     
 }
 
