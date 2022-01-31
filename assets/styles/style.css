@@ -39,16 +39,15 @@ html {
 
 .header__navigation-items li {
     font-size: 1.3rem;
-    padding: 12px 15px;
-    border: 1px solid transparent;
     margin-right: 18px;
-    transition: 0.5s;
-
 }
 
 .header__navigation-items a {
     text-decoration: none;
     color:#ffffff;
+    padding: 12px 15px;
+    border: 1px solid transparent;
+    transition: 0.5s;
 }
 
 .header__navigation-items li:first-child {
@@ -59,15 +58,11 @@ html {
     margin-right: 0px;
 }
 
-.header__navigation-items li:hover {
+.header__navigation-items a:hover {
     font-size: 1.3rem;
-    padding: 12px 15px;
     border: 1px solid #ffffff;
 
 }
-
-
-
 
 
 /* LEADERS */
