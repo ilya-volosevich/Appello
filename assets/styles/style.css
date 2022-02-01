@@ -232,13 +232,13 @@ html {
     color: #737373;
 }
 
-.where_contactus {
+.reg__button {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.where_contactus a {
+.reg__button a {
     padding: 15px 49px;
     font-size: 1.5rem;
     color: #ffffff;
@@ -246,3 +246,99 @@ html {
     border-radius: 3px;
 
 }
+
+
+/* proud of */
+
+.proudof {
+    background: #0E0E33;
+    margin-bottom: 150px;
+}
+
+.proudof__top-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.proudof__top-title h2 {
+    font-size: 4.1rem;
+    font-weight: 400px;
+    color: #ffffff;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+
+
+.proudof__top-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 480px;
+}
+
+.proudof__info-item {
+    color: #ffffff;
+    margin-right: 150px;
+    max-width: 120px;
+}
+
+.proudof__info-item:last-child {
+    margin-right: 0px;
+}
+
+.proudof__info-item span {
+    font-size: 4.2rem;
+    margin-bottom: 15px;
+}
+
+.proudof__info-item p {
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.proudof__bg {
+    background-color: #ffffff;
+}
+
+.proudof__cards {
+    display: grid;
+    grid-template-columns: minmax(300px,565px) minmax(300px,565px);
+    grid-template-rows: 655px 655px;
+    grid-gap: 40px;
+    position: relative;
+    top: -380px;
+    margin-bottom: -380px;
+}
+
+.proudof__card {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 0px;
+}
+
+.proudof__card img { 
+    margin-bottom: 45px;
+}
+
+.proudof__card span {
+    font-size: 2.4rem;
+    
+}
+
+.proudof__card p {
+    font-size: 1.6rem;
+    line-height: 30px;
+    padding: 25px 57px 35px 30px;
+}
+
+.proudof__btn {
+    margin-top: 41px;
+}
+
