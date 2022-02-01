@@ -61,7 +61,6 @@ html {
 .header__navigation-items a:hover {
     font-size: 1.3rem;
     border: 1px solid #ffffff;
-
 }
 
 
@@ -109,6 +108,8 @@ html {
     color: #ffffff;
 }
 
+/*devpartners*/
+
 
 .devpartners {
     background: #FFFFFF;
@@ -120,6 +121,7 @@ html {
     border-radius: 0px;
     position: relative;
     top: -60px;
+    margin-bottom: 90px;
 }
 
 .devpartners__left {
@@ -152,4 +154,95 @@ html {
     margin-bottom: 50px;
     max-width: 128px;
     color: #737373;
+}
+
+/* WHERE ARE YOU NOW*/
+
+.where {
+    margin-bottom: 150px;
+}
+
+.where__top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 85px;
+}
+
+.where__top h2 {
+    font-size: 4.1rem;
+    margin-bottom: 35px;
+}
+
+.where__top p {
+    font-size: 1.2rem;
+    color: #737373;
+}
+
+.where__links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.where__links-item {
+    font-size: 2.4rem;
+    margin-right: 100px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.where__links-item:hover {
+    color: #0A8BFE;
+}
+
+.where__links-item:last-child {
+    margin-right: 0px;
+}
+
+.where__info-items {
+    display: grid;
+    grid-template-columns: minmax(300px,560px) minmax(300px,560px);
+    grid-template-rows: 220px 220px; 
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin-left:15px;
+    margin-bottom: 50px;
+}
+
+.where__info-item {
+    border: 1px solid #E8E8E8;
+    padding-left:  40px;
+    padding-top: 38px;
+}
+
+
+
+.where__info-item h4 {
+    font-size: 1.9rem;
+    margin-bottom: 23px;
+}
+
+.where__info-item p {
+    font-size: 1.6rem;
+    color: #737373;
+}
+
+.where_contactus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.where_contactus a {
+    padding: 15px 49px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background: #0A8BFE;
+    border-radius: 3px;
+
 }

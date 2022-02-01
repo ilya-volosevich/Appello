@@ -31,6 +31,10 @@
         margin-right: 0px;
     }
 
+    .header__navigation-items a {
+        padding: 0;
+    }
+
 
     .header__navigation-items li:first-child {
         margin-left: 0px;
@@ -70,5 +74,17 @@
         margin:0px;
     }
 
+    /* WHERE ARE YOU NOW*/
 
+    .where__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .where__info-items {
+        grid-template-columns: minmax(300px,560px);
+        grid-template-rows: 220px;
+        grid-gap: 10px;
+    }
 }
