@@ -132,4 +132,30 @@
         align-items: center;
         text-align: center;
     }
+
+    /* relationship*/
+
+    .relationship__title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .relationship__partners {
+        display: grid;
+        grid-template-areas: 'one'
+        'two'
+        'three'
+        'four'
+        'five'
+        'six'
+        'seven'
+        'eight';
+        text-align: center;
+    }
+
+    .relationship__partners {
+        text-align: center;
+    }
+
 }

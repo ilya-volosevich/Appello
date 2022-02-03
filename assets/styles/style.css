@@ -342,3 +342,77 @@ html {
     margin-top: 41px;
 }
 
+/* RELATIONSHIP */
+
+.relationship {
+    margin-bottom: 60px;
+}
+
+
+.relationship__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.relationship__title h2 {
+    font-size: 4.1rem;
+    line-height: 50px;
+    margin-bottom: 36px;
+}
+
+.relationship__title p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    color: #737373;
+    max-width: 698px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.relationship__partners {
+    background: rgb(248, 248, 248);
+    display: grid;
+    grid-template-areas: 'one two three four'
+    'five six seven eight';
+    grid-gap: 120px 140px;
+    padding:99px 122px 80px 83px;
+
+}
+
+.relationship__partner {
+    text-align: center;
+}
+
+.relationship__partner:nth-child(1) {
+    grid-area: one;
+}
+
+.relationship__partner:nth-child(2) {
+    grid-area: two;
+}
+
+.relationship__partner:nth-child(3) {
+    grid-area: three;
+}
+
+.relationship__partner:nth-child(4) {
+    grid-area: four;
+}
+
+.relationship__partner:nth-child(5) {
+    grid-area: five;
+}
+
+.relationship__partner:nth-child(6) {
+    grid-area: six;
+}
+
+.relationship__partner:nth-child(7) {
+    grid-area: seven;
+}
+
+.relationship__partner:nth-child(8) {
+    grid-area: eight;
+}
