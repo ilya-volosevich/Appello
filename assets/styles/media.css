@@ -45,9 +45,14 @@
     .leaders__content {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         text-align: center;
         padding-top: 400px;
+    }
+
+    .leaders__content h2 {
+        font-size: 2.8rem;
     }
 
     /* devpartners */
