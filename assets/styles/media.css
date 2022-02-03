@@ -1,4 +1,4 @@
-@media (max-width:755px) {
+@media (max-width:750px) {
 
 
     /*HEADER*/
@@ -170,6 +170,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    /*request form*/
+
+    .request__form {
+        padding: 10px 5px;
+    }
+
+    .request__form span {
+        text-align: center;
+    }
+
+    .Details,.required {
+        padding: 18px 232px 18px 20px;
     }
 
 }
