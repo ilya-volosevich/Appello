@@ -210,7 +210,7 @@
 
 /* resources */ 
 
-
+    
     .resources__cards {
         display: flex;
         flex-direction: column;
@@ -220,5 +220,45 @@
 
     .resources__card {
         margin-bottom: 10px;
+    }
+
+
+/*footer*/
+
+    .footer__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__top p {
+        margin-bottom: 10px;
+    }
+
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__bottom span:first-child {
+        margin-right: 0px;
+    }
+
+    .footer__bottom a {
+        margin: 0px;
+    }
+
+    .footer__bottom span:last-child {
+        margin-left: 0px;
     }
 }
